@@ -8,7 +8,7 @@
 * The Cordova app can request the traffic status anytime, however with an around ±3 minutes of accuracy due to the TFL API update intervals.
 
 
-### Android [APK file](https://github.com/charisTheo/london-traffic-cordova/blob/master/platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk)
+### Android [APK file](https://github.com/charisTheo/london-traffic-cordova/blob/master/platforms/android/app/build/outputs/apk/debug/app-debug.apk)
 
 <p align="center">
   <img src="https://github.com/charisTheo/london-traffic-cordova/blob/master/requesting-traffic-status.gif?raw=true" alt="Demo showing how requesting traffic status works"/>
