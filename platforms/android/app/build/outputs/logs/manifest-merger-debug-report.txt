@@ -1,0 +1,228 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [:tbxml-android:] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/tbxml-android.aar/185eafde2f53c97c5a529837cfc89f8e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d297ba0da98eff0ed5caf617e2552474/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/98551f10fa0227d7e85c192925b0a910/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/ee5052f2153c78a0e400981c15533f23/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/66f5af914e0f433c8b20540b4a90da1d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/dc72cbca038d55ab7c40d649aed23572/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3a922b0431683307c0a82e51990092dd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/75ad6ce568a7a5ff27e7a25124bf38cb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c0265d49b895bbef6faeec9c3125efd1/AndroidManifest.xml:17:1-22:12
+MERGED from [:CordovaLib] /Users/charistheo/Desktop/dev/shortcut/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/553460d1ca2eaa74cbcdb6fedb5eace5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5bc87afb73015d3f3a2bf4a4223dfc24/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3479b6a32c6eaaa0f4c92c38863782cf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8470602155b1d634afde0e31666279cc/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:102-135
+		INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
+		INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:136-194
+	android:versionCode
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
+		INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:5:5-15:19
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d297ba0da98eff0ed5caf617e2552474/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d297ba0da98eff0ed5caf617e2552474/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/98551f10fa0227d7e85c192925b0a910/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/98551f10fa0227d7e85c192925b0a910/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/ee5052f2153c78a0e400981c15533f23/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/ee5052f2153c78a0e400981c15533f23/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/66f5af914e0f433c8b20540b4a90da1d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/66f5af914e0f433c8b20540b4a90da1d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/dc72cbca038d55ab7c40d649aed23572/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/dc72cbca038d55ab7c40d649aed23572/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3a922b0431683307c0a82e51990092dd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3a922b0431683307c0a82e51990092dd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/75ad6ce568a7a5ff27e7a25124bf38cb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/75ad6ce568a7a5ff27e7a25124bf38cb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/553460d1ca2eaa74cbcdb6fedb5eace5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/553460d1ca2eaa74cbcdb6fedb5eace5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5bc87afb73015d3f3a2bf4a4223dfc24/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5bc87afb73015d3f3a2bf4a4223dfc24/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#io.cordova.hellocordova.MainActivity
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:12:9-124
+	android:value
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:12:66-121
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:12:20-65
+meta-data#com.google.android.gms.version
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:13:9-122
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/dc72cbca038d55ab7c40d649aed23572/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/dc72cbca038d55ab7c40d649aed23572/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:13:66-119
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:13:20-65
+uses-library#org.apache.http.legacy
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:14:9-88
+	android:required
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:14:61-85
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:14:23-60
+uses-sdk
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:16:5-74
+INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:16:5-74
+MERGED from [:tbxml-android:] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/tbxml-android.aar/185eafde2f53c97c5a529837cfc89f8e/AndroidManifest.xml:7:5-9:41
+MERGED from [:tbxml-android:] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/tbxml-android.aar/185eafde2f53c97c5a529837cfc89f8e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d297ba0da98eff0ed5caf617e2552474/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/d297ba0da98eff0ed5caf617e2552474/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/98551f10fa0227d7e85c192925b0a910/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/98551f10fa0227d7e85c192925b0a910/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/ee5052f2153c78a0e400981c15533f23/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/ee5052f2153c78a0e400981c15533f23/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/66f5af914e0f433c8b20540b4a90da1d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/66f5af914e0f433c8b20540b4a90da1d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/dc72cbca038d55ab7c40d649aed23572/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/dc72cbca038d55ab7c40d649aed23572/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3a922b0431683307c0a82e51990092dd/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3a922b0431683307c0a82e51990092dd/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/75ad6ce568a7a5ff27e7a25124bf38cb/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/75ad6ce568a7a5ff27e7a25124bf38cb/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c0265d49b895bbef6faeec9c3125efd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c0265d49b895bbef6faeec9c3125efd1/AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] /Users/charistheo/Desktop/dev/shortcut/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/charistheo/Desktop/dev/shortcut/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/553460d1ca2eaa74cbcdb6fedb5eace5/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/553460d1ca2eaa74cbcdb6fedb5eace5/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5bc87afb73015d3f3a2bf4a4223dfc24/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5bc87afb73015d3f3a2bf4a4223dfc24/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3479b6a32c6eaaa0f4c92c38863782cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3479b6a32c6eaaa0f4c92c38863782cf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8470602155b1d634afde0e31666279cc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8470602155b1d634afde0e31666279cc/AndroidManifest.xml:20:5-44
+INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:16:5-74
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3a922b0431683307c0a82e51990092dd/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:16:42-71
+	android:minSdkVersion
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+		INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/582f0dfe5543d6323718a12615f115c5/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:20:19-51
+	android:required
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:20:52-75
+uses-feature#android.hardware.location
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:21:5-62
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:21:19-59
+uses-feature#android.hardware.location.gps
+ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:22:5-66
+	android:name
+		ADDED from /Users/charistheo/Desktop/dev/shortcut/platforms/android/app/src/main/AndroidManifest.xml:22:19-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/98551f10fa0227d7e85c192925b0a910/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/98551f10fa0227d7e85c192925b0a910/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/98551f10fa0227d7e85c192925b0a910/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/98551f10fa0227d7e85c192925b0a910/AndroidManifest.xml:24:13-79
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3a922b0431683307c0a82e51990092dd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/75ad6ce568a7a5ff27e7a25124bf38cb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/75ad6ce568a7a5ff27e7a25124bf38cb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/553460d1ca2eaa74cbcdb6fedb5eace5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/553460d1ca2eaa74cbcdb6fedb5eace5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5bc87afb73015d3f3a2bf4a4223dfc24/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/5bc87afb73015d3f3a2bf4a4223dfc24/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3a922b0431683307c0a82e51990092dd/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/charistheo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3a922b0431683307c0a82e51990092dd/AndroidManifest.xml:27:13-51

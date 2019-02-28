@@ -1,0 +1,4 @@
+#Thu Feb 28 11:59:11 GMT 2019
+base.0=/Users/charistheo/Desktop/dev/shortcut/platforms/android/app/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex
