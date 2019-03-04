@@ -27,14 +27,22 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     },
 
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.renderMaps();
+        this.geolocateUser();
+    },
+
+    geolocateUser: function() {
+      function onSuccess(position) {
+        this.locateUser(position.coords.latitude, position.coords.longitude);
+      }
+      function onError(error) {
+        console.log('TCL: geolocateUser -> error', error);
+      }
+      navigator.geolocation.getCurrentPosition(onSuccess.bind(this), onError);
     },
 
     locateUser: function(lat, lng) {
-      if (!this.map) return;
       // Move to the position with animation
       this.map.animateCamera({
         target: {lat, lng},
@@ -43,11 +51,6 @@ var app = {
         bearing: 0,
         duration: 3000
       });
-    },
-
-    locateArea: function(area) {
-      if (!this.map) return;
-
     },
 
     showPolyline: function(...positions) {
@@ -59,11 +62,10 @@ var app = {
       });
     },
 
-    getTrafficStatus: function() {
-      if (!this.map) return;
+    getTrafficStatus: async function() {
       // Add a maker
       let $this = this;
-      fetch(this.SERVER_URL + "/road-information")
+      await fetch(this.SERVER_URL + "/road-information")
         .then(function(response) {
           if (response.status !== 200) return alert("There was an error while fetching the information", response.status);
           response.json().then(function(data) {
@@ -79,7 +81,7 @@ var app = {
             });
             // Show the info window
             $this.mapMarker.showInfoWindow();
-            // show a polyline from this position to KINGS_CROSS_POSITION
+            // show a polyline from KINGS_CROSS_POSITION to the position received
             $this.showPolyline($this.KINGS_CROSS_POSITION, data.position);
           });
         })
@@ -88,10 +90,10 @@ var app = {
         });
     },
 
-    renderMaps: function() {
+    renderMaps: async function() {
         // Create a Google Maps native view under the map_canvas div.
-        this.map = plugin.google.maps.Map.getMap(document.getElementById("map_canvas"));
-
+        this.map = await plugin.google.maps.Map.getMap(document.getElementById("map_canvas"));
+        // attach event listener on the button for traffic status request
         var getTrafficBtn = document.getElementById("get-traffic-btn");
         getTrafficBtn.addEventListener("click", this.getTrafficStatus.bind(this));
     }
