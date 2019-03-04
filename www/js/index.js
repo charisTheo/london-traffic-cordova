@@ -20,7 +20,7 @@
  * @constructor app - main app object
  * 
  * @method initialize - initialize app by binding a 'deviceready' listener
- * @method onDeviceReady - execute functions after app has been initialized
+ * @method onMapInit - Google Maps view has been rendered and ready to use
  * @method geolocateUser - geolocate user 
  * @method locatePositionOnMap - locate a given position on the Google Maps view
  * @method showPolyline - draw a polyline on Google Maps between two points
@@ -36,19 +36,19 @@ var app = {
 
     /**
      * @method initialize - attach event listener and execute another method on 'deviceready'
+     * 
+     * @event deviceready - on deviceready render the Google Maps View
      */
     initialize: function() {
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+        document.addEventListener('deviceready', function() {
+          this.renderMaps();
+        }.bind(this), false);
     },
-
+    
     /**
-     * @method onDeviceReady - execute after device is ready and app has been initialized
-     * 
-     * @function this.renderMaps - async function
-     * @function this.geolocateUser
+     * @method onMapInit - Map is ready to use, geolocate user
      */
-    onDeviceReady: function() {
-        this.renderMaps();
+    onMapInit: function() {
         this.geolocateUser();
     },
 
@@ -100,15 +100,14 @@ var app = {
     },
 
     /**
-     * @async
-     * @method getRoadInfo - async function which requests the information about a specific road
+     * @method getRoadInfo - function which requests the information about a specific road
      * 
      * Adds a marker on the road position which displays a message about the traffic congestion level
      * then draws a polyline between two points on the road
      */
-    getRoadInfo: async function() {
+    getRoadInfo: function() {
       let $this = this;
-      await fetch(this.SERVER_URL + "/road-information")
+      fetch(this.SERVER_URL + "/road-information")
         .then(function(response) {
           if (response.status !== 200) return alert("There was an error while fetching the information", response.status);
           
@@ -138,17 +137,18 @@ var app = {
     },
 
     /**
-     * @async
      * @method renderMaps - initialized and renders the Google Maps view on the screen
      * 
-     * @event (click) - attaches a click event listener on the get-traffic-btn element
+     * @event click - attaches a click event listener on the get-traffic-btn element
      */
-    renderMaps: async function() {
-        // Create a Google Maps native view under the map_canvas div.
-        this.map = await plugin.google.maps.Map.getMap(document.getElementById("map_canvas"));
-        // attach event listener on the button for traffic status request
-        var getTrafficBtn = document.getElementById("get-traffic-btn");
-        getTrafficBtn.addEventListener("click", this.getRoadInfo.bind(this));
+    renderMaps: function() {
+      // Create a Google Maps native view under the map_canvas div.
+      this.map = plugin.google.maps.Map.getMap(document.getElementById("map_canvas"));
+      // The MAP_READY event notifies the native map view is fully ready to use.
+      this.map.one(plugin.google.maps.event.MAP_READY, this.onMapInit.bind(this));
+      // attach event listener on the button for traffic status request
+      var getTrafficBtn = document.getElementById("get-traffic-btn");
+      getTrafficBtn.addEventListener("click", this.getRoadInfo.bind(this));
     }
 };
 
