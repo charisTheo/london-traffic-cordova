@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 04 12:58:54 GMT 2019
+#Mon Mar 04 13:46:54 GMT 2019
 56.path=www/plugins/cordova-plugin-googlemaps/www/Map.js
 5.base=/Users/charistheo/Desktop/dev/shortcut/platforms/android/app/build/intermediates/assets/debug
 42.base=/Users/charistheo/Desktop/dev/shortcut/platforms/android/app/build/intermediates/assets/debug

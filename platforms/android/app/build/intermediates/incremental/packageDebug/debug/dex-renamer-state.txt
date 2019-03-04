@@ -1,4 +1,4 @@
-#Mon Mar 04 12:58:54 GMT 2019
+#Mon Mar 04 13:46:53 GMT 2019
 base.0=/Users/charistheo/Desktop/dev/shortcut/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
