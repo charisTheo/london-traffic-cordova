@@ -25,11 +25,14 @@
  * @method locatePositionOnMap - locate a given position on the Google Maps view
  * @method showPolyline - draw a polyline on Google Maps between two points
  * @method getRoadInfo - get traffic status from server
+ * @method toggleLoader - toggle page loader by toggling its 'show' class
  * @method renderMaps - render the Google Maps view on screen
  */
 var app = {
     map: undefined,
     mapMarker: undefined,
+    loader: undefined,
+    getTrafficBtn: undefined,
     trafficStatus: "examining...",
     SERVER_URL: "https://ec2-13-59-22-38.us-east-2.compute.amazonaws.com",
     KINGS_CROSS_POSITION: {lat: 51.530100, lng: -0.123980},
@@ -41,6 +44,8 @@ var app = {
      */
     initialize: function() {
         document.addEventListener('deviceready', function() {
+          this.getTrafficBtn = document.getElementById("get-traffic-btn");
+          this.loader = document.getElementById("loader");
           this.renderMaps();
         }.bind(this), false);
     },
@@ -107,6 +112,7 @@ var app = {
      */
     getRoadInfo: function() {
       let $this = this;
+      $this.toggleLoader();
       fetch(this.SERVER_URL + "/road-information")
         .then(function(response) {
           if (response.status !== 200) return alert("There was an error while fetching the information", response.status);
@@ -129,11 +135,19 @@ var app = {
             $this.mapMarker.showInfoWindow();
             // show a polyline from KINGS_CROSS_POSITION to the position received
             $this.showPolyline($this.KINGS_CROSS_POSITION, data.position);
+            $this.toggleLoader();
           });
         })
         .catch(function(error) {
           console.log("getRoadInfo -> fetch -> Error", error);
         });
+    },
+
+    /**
+     * @method toggleLoader - toggle page loader by toggling its 'show' class
+     */
+    toggleLoader: function() {
+      this.loader.classList.toggle("show");
     },
 
     /**
@@ -147,8 +161,7 @@ var app = {
       // The MAP_READY event notifies the native map view is fully ready to use.
       this.map.one(plugin.google.maps.event.MAP_READY, this.onMapInit.bind(this));
       // attach event listener on the button for traffic status request
-      var getTrafficBtn = document.getElementById("get-traffic-btn");
-      getTrafficBtn.addEventListener("click", this.getRoadInfo.bind(this));
+      this.getTrafficBtn.addEventListener("click", this.getRoadInfo.bind(this));
     }
 };
 
